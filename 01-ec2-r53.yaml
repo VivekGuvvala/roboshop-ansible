@@ -21,6 +21,6 @@
     register: ec2_output
 
   - name: print the ec2_output
-    ansible_builtin_debug:
+    ansible.builtin.debug:
       msg: "{{ ec2_output }}"
 
