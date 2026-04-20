@@ -16,7 +16,7 @@
     - catalogue
     - shipping
     - payment
-    # - frontend
+    - frontend
   tasks:
   - name: create ec2 isntance
     amazon.aws.ec2_instance:
