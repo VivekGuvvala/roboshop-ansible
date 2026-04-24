@@ -7,16 +7,16 @@
     zone_id: "Z012179228HYOCBEUIC5W"
     domain_name: "learndevops.fun"
     instances:
-    - mongodb
-    - redis
-    - mysql
-    - rabbitmq
-    - user
-    - cart
-    - catalogue
-    - shipping
-    - payment
-    - frontend
+    - mongodb1
+    - redis1
+    - mysql1
+    - rabbitmq1
+    # - user
+    # - cart
+    # - catalogue
+    # - shipping
+    # - payment
+    # - frontend
   tasks:
   - name: create ec2 isntance
     amazon.aws.ec2_instance:
